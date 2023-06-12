@@ -1,0 +1,101 @@
+body {
+  font-family: "Happy Monkey", cursive;
+  text-align: center;
+  background: linear-gradient(rgb(174, 174, 239), rgb(244, 183, 193));
+  color: rgb(250, 12, 119);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+p,
+h4 {
+  text-shadow: 0px 0px 1px black;
+}
+
+#avatar-im {
+  border-radius: 50%;
+  border: 20px solid;
+  border-color: rgb(255, 194, 226);
+  width: 200px;
+  color: black;
+  box-shadow: 5px 5px 5px black;
+}
+
+#bday-age {
+  background: rgb(255, 194, 226);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px 0 10px 0;
+}
+
+#date {
+  background: rgb(255, 194, 226);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-img {
+  margin: 0 auto;
+  border: 6px solid black;
+  border-radius: 10px;
+  width: 400ppx;
+  height: 500px;
+  background-image: url("https://www.verdict.co.uk/wp-content/uploads/2018/11/shutterstock_712915198-e1542045457155.jpg");
+  background-size: cover;
+ 
+}
+
+
+.gift-hint {
+  margin bottom: 10;
+  padding: 0px 5px 5px 5px;
+  color: black;
+}
+
+#gift-img-dance:hover {
+background-image: url("https://media.giphy.com/media/GYtcGUAU6sa8zbZsR7/giphy.gif");
+
+}
+
+#gift-img-surprise:hover {
+background-image: url("https://media.giphy.com/media/lRpD28vbtrqq2zpaKS/giphy.gif");
+
+}
+
+#gift-img-oneword:hover {
+background-image: url("https://media.giphy.com/media/Qff97WxBLl2Bq/giphy.gif");
+
+}
+
+#gift-img-hair:hover {
+  background-image: url("https://media.giphy.com/media/U8IT5B9UxgG08/giphy.gif")
+}
+ 
+#gift-img-bday:hover { 
+  background-image: url("https://media.giphy.com/media/DiTBTEv8bxGZG/giphy.gif")
+}
+
+#gift-img-cheers:hover { 
+  background-image: url("https://media.giphy.com/media/1Q9vS91QsmeMkDNBWD/giphy.gif");
+  
+}
+
+#footer {
+  margin: 40px auto 20px;
+  width: 400px;
+  text-align: center;
+  font-style: italic;
+}
+
+a {color: black;}
